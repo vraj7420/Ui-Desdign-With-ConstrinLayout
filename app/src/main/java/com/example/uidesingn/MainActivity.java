@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         etEMail=(EditText) findViewById(R.id.etEmail);
         etPassword=(EditText) findViewById(R.id.etPassword);
         etRetypePassword= (EditText) findViewById(R.id.etRetypePassword);
-        btnSingUp= findViewById(R.id.btnSingup);
+        btnSingUp= findViewById(R.id.btnSingUp);
         btnSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
         } else if (etPassword.getText().toString().isEmpty()) {
             etPassword.setError("Please Enter Password");
         } else if (etRetypePassword.getText().toString().isEmpty()) {
-            etRetypePassword.setError("Please Enter Password agin");
+            etRetypePassword.setError("Please Enter Password again");
         }else if(!password.equals(retypePassword)){
-               etRetypePassword.setError("Password dosen't Match");
+               etRetypePassword.setError("Password dose not Match");
         }
         else {
             return;
