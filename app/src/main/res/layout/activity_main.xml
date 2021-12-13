@@ -8,23 +8,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnSingup"
+        android:id="@+id/btnSingUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/roundbutton"
         android:text="@string/signup"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
-        app:layout_constraintTop_toBottomOf="@id/chbTeamsCondtion" />
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
+        app:layout_constraintTop_toBottomOf="@id/chbTeamsCondition" />
 
     <CheckBox
-        android:id="@+id/chbTeamsCondtion"
+        android:id="@+id/chbTeamsCondition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="80dp"
         android:text="@string/agree_with_teams_condition"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
         app:layout_constraintTop_toBottomOf="@id/radioSex" />
 
     <RadioGroup
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
         app:layout_constraintTop_toBottomOf="@+id/tLayoutRetypePassword">
 
         <RadioButton
@@ -52,23 +52,23 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/tvAllredyAccount"
+        android:id="@+id/tvAllReadyAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/already_have_account_login_now"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
-        app:layout_constraintTop_toBottomOf="@id/btnSingup" />
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
+        app:layout_constraintTop_toBottomOf="@id/btnSingUp" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardViewOfimgView"
+        android:id="@+id/cardViewOfImgView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         app:cardCornerRadius="200dp"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -79,27 +79,27 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guidelineStart"
+        android:id="@+id/guideLineStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="50dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guidlinEnd"
+        android:id="@+id/guidLineEnd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="50dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tLayotFirstName"
+        android:id="@+id/tLayoutFirstName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
-        app:layout_constraintTop_toBottomOf="@id/cardViewOfimgView">
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
+        app:layout_constraintTop_toBottomOf="@id/cardViewOfImgView">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etFirstName"
@@ -110,13 +110,13 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tLayoytLastName"
+        android:id="@+id/tLayoutLastName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
-        app:layout_constraintTop_toBottomOf="@id/tLayotFirstName">
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
+        app:layout_constraintTop_toBottomOf="@id/tLayoutFirstName">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etLastName"
@@ -131,9 +131,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
-        app:layout_constraintTop_toBottomOf="@id/tLayoytLastName">
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
+        app:layout_constraintTop_toBottomOf="@id/tLayoutLastName">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
@@ -148,8 +148,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
         app:layout_constraintTop_toBottomOf="@id/tLayoutEmail">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -165,8 +165,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@id/guidlinEnd"
-        app:layout_constraintStart_toStartOf="@id/guidelineStart"
+        app:layout_constraintEnd_toEndOf="@id/guidLineEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLineStart"
         app:layout_constraintTop_toBottomOf="@id/tLayoutPassword">
 
         <com.google.android.material.textfield.TextInputEditText
