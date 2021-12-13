@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UiDesingn</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passsword">Passsword</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="agree_with_teams_condition"><![CDATA[Agree With Teams & Condition]]></string>
+    <string name="signup">SIGNUP</string>
+    <string name="already_have_account_login_now"><font>Already have account?</font>
+        <font color="#0000FF">Login Now</font></string>
+</resources>
